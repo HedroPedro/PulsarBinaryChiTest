@@ -1,1 +1,1 @@
-# PulsarBinaryQTest
+# PulsarBinaryChiTest

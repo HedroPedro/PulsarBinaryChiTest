@@ -1,4 +1,3 @@
-from numpy import cross
 import pandas as pd
 from psrqpy import QueryATNF
 from pathlib import Path

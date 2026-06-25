@@ -19,7 +19,6 @@ df['emission'] = df["TYPE"].apply(lambda x: "Radio" if x not in NO_RADIO else "N
 
 crosstab = pd.crosstab(df['is_binary'], df['emission'])
 
-
 chi2, p, dof, expected = chi2_contingency(crosstab)
 print(crosstab)
 print(f"{chi2=}")
